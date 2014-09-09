@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EF118849-C0D0-4CD6-9748-D734A98FC6C0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UnestsDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C4D054D7-07AA-4B8E-A977-C1908ECA2ABA</key>
+		<string>https://github.com/denty/unestsDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UnestsDemo/UnestsDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C4D054D7-07AA-4B8E-A977-C1908ECA2ABA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/denty/unestsDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C4D054D7-07AA-4B8E-A977-C1908ECA2ABA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C4D054D7-07AA-4B8E-A977-C1908ECA2ABA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>unestsDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
