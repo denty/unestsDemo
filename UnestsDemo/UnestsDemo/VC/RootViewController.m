@@ -32,10 +32,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 64)];
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
     [headerView setAlpha:0];
     [m_tabelView setTableHeaderView:headerView];
     [rootNavView setAlpha:0.8];
+    [self.navigationController.navigationBar setHidden:YES];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -47,7 +48,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 10;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -57,8 +58,28 @@
     if (cell == nil) {
         cell = [[RevealTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdenty];
     }
-    [cell loadDataWithTitle:@"Heppy Type Where Funny Heppen " SubTitle:@"good" RevealImg:[UIImage imageNamed:@"Bg4.jpg"]];
     [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+    
+    switch (indexPath.row) {
+        case 0:
+           [cell loadDataWithTitle:@"Heppy Type Where Funny Heppen " SubTitle:@"good" RevealImg:[UIImage imageNamed:@"Bg2.jpg"]];
+            break;
+        case 1:
+            [cell loadDataWithTitle:@"Heppy Type Where Funny Heppen " SubTitle:@"good" RevealImg:[UIImage imageNamed:@"Bg3.jpg"]];
+            break;
+        case 2:
+            [cell loadDataWithTitle:@"Heppy Type Where Funny Heppen " SubTitle:@"good" RevealImg:[UIImage imageNamed:@"Bg4.jpg"]];
+            break;
+        case 3:
+            [cell loadDataWithTitle:@"Heppy Type Where Funny Heppen " SubTitle:@"good" RevealImg:[UIImage imageNamed:@"Bg5.jpg"]];
+            break;
+        case 4:
+            [cell loadDataWithTitle:@"Heppy Type Where Funny Heppen " SubTitle:@"good" RevealImg:[UIImage imageNamed:@"Bg6.jpg"]];
+            break;
+            
+        default:
+            break;
+    }
     return cell;
 }
 
@@ -70,8 +91,6 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     RevealDetailViewController * aRevealDetailViewController = [[RevealDetailViewController alloc] init];
-    [self presentViewController:aRevealDetailViewController animated:YES completion:^{
-        
-    }];
+    [self.navigationController pushViewController:aRevealDetailViewController animated:YES];
 }
 @end

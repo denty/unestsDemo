@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "RevealTableViewCell.h"
-@interface RootViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@interface RootViewController : UIViewController <UITableViewDataSource,UITableViewDelegate,UINavigationControllerDelegate>
 
 @end

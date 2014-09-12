@@ -39,6 +39,7 @@
 		ECCA198219BEE0F10028EF7E /* RevealDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA198019BEE0F10028EF7E /* RevealDetailViewController.m */; };
 		ECCA198319BEE0F10028EF7E /* RevealDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCA198119BEE0F10028EF7E /* RevealDetailViewController.xib */; };
 		ECCA198A19BEEE3E0028EF7E /* RotatedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA198919BEEE3E0028EF7E /* RotatedTableView.m */; };
+		ECCCA79419C03A7400813D6E /* RotatedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCCA79319C03A7400813D6E /* RotatedTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,8 @@
 		ECCA198119BEE0F10028EF7E /* RevealDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RevealDetailViewController.xib; sourceTree = "<group>"; };
 		ECCA198819BEEE3E0028EF7E /* RotatedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatedTableView.h; sourceTree = "<group>"; };
 		ECCA198919BEEE3E0028EF7E /* RotatedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatedTableView.m; sourceTree = "<group>"; };
+		ECCCA79219C03A7400813D6E /* RotatedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatedTableViewCell.h; sourceTree = "<group>"; };
+		ECCCA79319C03A7400813D6E /* RotatedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatedTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +251,8 @@
 			children = (
 				ECCA198819BEEE3E0028EF7E /* RotatedTableView.h */,
 				ECCA198919BEEE3E0028EF7E /* RotatedTableView.m */,
+				ECCCA79219C03A7400813D6E /* RotatedTableViewCell.h */,
+				ECCCA79319C03A7400813D6E /* RotatedTableViewCell.m */,
 			);
 			path = unity;
 			sourceTree = "<group>";
@@ -367,6 +372,7 @@
 				ECCA193519BEACB40028EF7E /* RootViewController.m in Sources */,
 				ECCA198219BEE0F10028EF7E /* RevealDetailViewController.m in Sources */,
 				ECCA190B19BE997F0028EF7E /* main.m in Sources */,
+				ECCCA79419C03A7400813D6E /* RotatedTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +569,7 @@
 				ECCA192D19BE997F0028EF7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECCA192E19BE997F0028EF7E /* Build configuration list for PBXNativeTarget "UnestsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +578,7 @@
 				ECCA193019BE997F0028EF7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
